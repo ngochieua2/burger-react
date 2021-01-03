@@ -10,7 +10,7 @@ import withErrorHandler from '../withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 import axios from '../../axios-orders';
 
-class BurgerBuilder extends Component {
+export class BurgerBuilder extends Component {
     // constructor(props){
     //     supper(props);
     // }
